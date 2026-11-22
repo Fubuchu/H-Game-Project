@@ -1,0 +1,244 @@
+[gd_scene format=3 uid="uid://b5bbe34ok2ksf"]
+
+[ext_resource type="Texture2D" uid="uid://c55oyvnffrw0n" path="res://RDT_20240831_1130276337901610519061934.png" id="1_lgwbm"]
+
+[sub_resource type="Theme" id="Theme_lgwbm"]
+
+[node name="gallery_tab_container" type="Control" unique_id=1370399384]
+custom_minimum_size = Vector2(320, 180)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="." unique_id=769492782]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_lgwbm")
+theme_override_constants/tab_separation = 5
+current_tab = 0
+
+[node name="Character 1" type="TabBar" parent="TabContainer" unique_id=208729896]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Character 1" unique_id=856580979]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 25
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 25
+
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Character 1/MarginContainer" unique_id=704829534]
+layout_mode = 2
+theme_override_constants/scrollbar_h_separation = 10
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="TabContainer/Character 1/MarginContainer/ScrollContainer" unique_id=1796614130]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 25
+columns = 4
+
+[node name="CG1" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=694901815]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG13" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1032732880]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG14" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=2080116807]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG15" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1945070880]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG16" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1793496271]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG17" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1791526129]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG18" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1622769621]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG19" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1300971645]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG20" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=580489900]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG2" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=83944405]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG3" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1018406735]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG4" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=713907968]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG5" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=1527086809]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG6" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=272873572]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG7" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=170609952]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG8" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=945320534]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG9" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=891747634]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG10" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=70169560]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG11" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=856679771]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="CG12" type="TextureButton" parent="TabContainer/Character 1/MarginContainer/ScrollContainer/GridContainer" unique_id=461268157]
+custom_minimum_size = Vector2(270, 180)
+layout_mode = 2
+texture_normal = ExtResource("1_lgwbm")
+ignore_texture_size = true
+stretch_mode = 6
+
+[node name="Character 2" type="TabBar" parent="TabContainer" unique_id=2041994290]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Character 2" unique_id=1880738675]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="Character 3" type="TabBar" parent="TabContainer" unique_id=450967160]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Character 3" unique_id=466653846]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="Other Characters" type="TabBar" parent="TabContainer" unique_id=1293648834]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Other Characters" unique_id=2013859222]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24

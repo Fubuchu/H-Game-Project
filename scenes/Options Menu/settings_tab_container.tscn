@@ -1,0 +1,191 @@
+[gd_scene format=3 uid="uid://d4baiqjm0ila8"]
+
+[node name="Settings_Tab_container" type="Control" unique_id=1187355467]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="." unique_id=905006104]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 100.0
+offset_top = 100.0
+offset_right = -100.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+tab_alignment = 1
+current_tab = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Sound" type="TabBar" parent="TabContainer" unique_id=823876345]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Sound" unique_id=1140035554]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Sound/MarginContainer" unique_id=329041343]
+layout_mode = 2
+theme_override_constants/separation = 32
+
+[node name="Label" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer" unique_id=166291854]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label2" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer" unique_id=155649344]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label3" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer" unique_id=1476632982]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label4" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer" unique_id=167987476]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label5" type="Label" parent="TabContainer/Sound/MarginContainer/VBoxContainer" unique_id=943126093]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Graphics" type="TabBar" parent="TabContainer" unique_id=1793167721]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Graphics" unique_id=45572830]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Graphics/MarginContainer" unique_id=506453078]
+layout_mode = 2
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Label" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer" unique_id=478623212]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label2" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer" unique_id=430480606]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label3" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer" unique_id=1686077264]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label4" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer" unique_id=38533240]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label5" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer" unique_id=301539834]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Controls" type="TabBar" parent="TabContainer" unique_id=1805227531]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Controls" unique_id=536261446]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Controls/MarginContainer" unique_id=267085642]
+layout_mode = 2
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Label" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer" unique_id=1108028256]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label2" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer" unique_id=1219663188]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label3" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer" unique_id=2123963820]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label4" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer" unique_id=1603870787]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label5" type="Label" parent="TabContainer/Controls/MarginContainer/VBoxContainer" unique_id=3581997]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Accessibility" type="TabBar" parent="TabContainer" unique_id=528022695]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="TabContainer/Accessibility" unique_id=194020597]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Accessibility/MarginContainer" unique_id=1878431162]
+layout_mode = 2
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Label" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer" unique_id=846436]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label2" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer" unique_id=1769054664]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label3" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer" unique_id=324077138]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label4" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer" unique_id=527984038]
+layout_mode = 2
+text = "Hello World!"
+
+[node name="Label5" type="Label" parent="TabContainer/Accessibility/MarginContainer/VBoxContainer" unique_id=1033429105]
+layout_mode = 2
+text = "Hello World!"

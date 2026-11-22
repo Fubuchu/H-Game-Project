@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://2tbru74qb30l"]
+
+[ext_resource type="Script" uid="uid://bv75k2ofpimcr" path="res://scenes/Gallery Menu/gallery_menu.gd" id="1_yaymq"]
+[ext_resource type="PackedScene" uid="uid://b5bbe34ok2ksf" path="res://scenes/Gallery Menu/gallery_tab_container.tscn" id="2_bi3c3"]
+
+[sub_resource type="SystemFont" id="SystemFont_yaymq"]
+font_names = PackedStringArray("Impact")
+subpixel_positioning = 0
+
+[node name="Gallery_Menu" type="Control" unique_id=1545386395]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yaymq")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=170194825]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=926402002]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1628297748]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/outline_size = 12
+theme_override_fonts/font = SubResource("SystemFont_yaymq")
+theme_override_font_sizes/font_size = 32
+text = "Gallery"
+horizontal_alignment = 3
+vertical_alignment = 3
+
+[node name="gallery_tab_container" parent="MarginContainer/VBoxContainer" unique_id=1370399384 instance=ExtResource("2_bi3c3")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Exit_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=448560284]
+custom_minimum_size = Vector2(120, 60)
+layout_mode = 2
+text = "Exit"

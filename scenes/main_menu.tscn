@@ -1,0 +1,150 @@
+[gd_scene format=3 uid="uid://c7tov5no6ot64"]
+
+[ext_resource type="Script" uid="uid://dsms28evb1mwq" path="res://main_menu.gd" id="1_ekxnf"]
+[ext_resource type="PackedScene" uid="uid://br6v1mwtox3t1" path="res://scenes/Options Menu/options_menu.tscn" id="2_bqqt6"]
+[ext_resource type="PackedScene" uid="uid://2tbru74qb30l" path="res://scenes/Gallery Menu/gallery_menu.tscn" id="3_bqqt6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e8h6t"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.5882353, 0.85490197, 0.90588236, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.20784314, 0.31764707, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 1
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekxnf"]
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_06t4h"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.37503904, 0.69876134, 0.75798935, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d0u6y"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.5882353, 0.85490197, 0.90588236, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.20784314, 0.31764707, 1, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 1
+shadow_size = 4
+
+[node name="MainMenu" type="Control" unique_id=1382516064]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 4.0
+offset_right = 2.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ekxnf")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=149033587]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -4.0
+offset_right = 244.0
+offset_bottom = 643.0
+theme_override_constants/margin_left = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=59359859]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Play_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1849045708]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_e8h6t")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+text = "Start New Game"
+
+[node name="Load_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1285188865]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_e8h6t")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+text = "Load Game"
+
+[node name="Gallery_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=963787737]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_d0u6y")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+text = "View Gallery"
+
+[node name="Options_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=1955305129]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_d0u6y")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+text = "Options"
+
+[node name="Exit_Button" type="Button" parent="MarginContainer/VBoxContainer" unique_id=187715463]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_d0u6y")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ekxnf")
+theme_override_styles/hover = SubResource("StyleBoxFlat_06t4h")
+text = "Exit Game"
+
+[node name="Options_Menu" parent="." unique_id=1541451099 instance=ExtResource("2_bqqt6")]
+visible = false
+layout_mode = 1
+
+[node name="Gallery_Menu" parent="." unique_id=1545386395 instance=ExtResource("3_bqqt6")]
+visible = false
+layout_mode = 1
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Play_Button" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Load_Button" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Gallery_Button" to="." method="_on_gallery_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Options_Button" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Exit_Button" to="." method="_on_exit_pressed"]
