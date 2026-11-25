@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://br6v1mwtox3t1"]
 
-[ext_resource type="Script" uid="uid://cotbu6qd6vrfs" path="res://scenes/options_menu.gd" id="1_l7ot1"]
+[ext_resource type="Script" uid="uid://cotbu6qd6vrfs" path="res://scenes/Options Menu/options_menu.gd" id="1_l7ot1"]
 [ext_resource type="PackedScene" uid="uid://d4baiqjm0ila8" path="res://scenes/Options Menu/settings_tab_container.tscn" id="2_85qvd"]
 
 [sub_resource type="SystemFont" id="SystemFont_g4v7s"]
